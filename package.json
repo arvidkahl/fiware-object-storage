@@ -1,6 +1,6 @@
 {
   "name": "fiware-object-storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect to FIWARE Object Storage GE from NodeJS",
   "main": "lib/index.js",
   "keywords": [
@@ -8,8 +8,28 @@
     "Object",
     "Storage"
   ],
-  "author": "Arvid Kahl",
-  "license": "MIT",
+  "author": "Arvid Kahl <mail@arvidkahl.de> (http://www.arvidkahl.de)",  
+  "maintainers": [
+    "Arvid Kahl <mail@arvidkahl.de> (http://www.arvidkahl.de)"
+  ],  
+
+  "homepage": "https://github.com/arvidkahl/fiware-object-storage",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arvidkahl/fiware-object-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvidkahl/fiware-object-storage/issues"
+  },
+  "license": {
+    "type" : "MIT",
+    "url" : "https://github.com/arvidkahl/fiware-object-storage/blob/master/LICENSE-MIT"
+    },
+
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+
   "dependencies": {
     "atob": "^1.1.2",
     "btoa": "^1.1.2",
