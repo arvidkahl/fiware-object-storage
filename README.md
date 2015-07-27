@@ -14,7 +14,7 @@ Include the `fiware-object-storage` module and initialize it with a configuratio
 
 ```js
 fiwareObjectStorageConfig = {
-  url       : 'FIWARE_OBJECTSTORAGE_URL'  // IP of the Object Storage GE
+  url       : 'FIWARE_OBJECTSTORAGE_URL'  // IP of the Object Storage GE, e.g. "api2.xifi.imaginlab.fr" (FIWARE Lannion2)
   auth      : 'FIWARE_AUTH_URL'           // IP of the Auth Services, likely "cloud.lab.fi-ware.org"
   container : 'some-container'            // Whatever container you want to connect to
   user      : "FIWARE_EMAIL_ADDRESS"      // Your FIWARE account email
@@ -23,11 +23,15 @@ fiwareObjectStorageConfig = {
 
 var fiwareObjectStorage = require('fiware-object-storage');
 
-fiwareObjectStorage.connectToObjectStorage(function(){
-  // Now we are connected.
-  var files = fiwareObjectStorage.getFileList() // Prints file list to the console and returns it as an array of strings
 
-}) 
+fios = fiwareObjectStorage(fiwareObjectStorageConfig);
+
+fios.connectToObjectStorage(function(){
+  // Now we are connected.
+  var files = fios.getFileList() // Prints file list to the console and returns it as an array of strings
+
+});
+
 ```
 
 ## Methods
@@ -52,4 +56,7 @@ Downloads the file called `name` from the container and returns:
 }
 ```
 
+## License
+
 No warranties. It's fiware-related code.
+should this be MIT ? :)
