@@ -2,6 +2,11 @@
  * FIWARE Object Storage GE read/write access
  *
  * You will need your FIWARE account credentials for this module to work.
+ *
+ *
+ * WARNING: This code is not up to date. Use the js file in lib for now.
+ *
+ * 
 ###
 
 needle = require "needle"

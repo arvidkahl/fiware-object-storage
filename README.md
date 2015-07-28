@@ -59,4 +59,5 @@ Downloads the file called `name` from the container and returns:
 ## License
 
 No warranties. It's fiware-related code.
-should this be MIT ? :)
+
+For anything else: MIT.
