@@ -1,6 +1,6 @@
 {
   "name": "fiware-object-storage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Connect to FIWARE Object Storage GE from NodeJS",
   "main": "lib/index.js",
   "keywords": [
