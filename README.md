@@ -1,3 +1,7 @@
+**This module is deprecated and no longer maintained.**
+A working (and much more feature-complete) Object Storage GE module can be found at [renarsvilnis/fiware-object-storage-ge](https://github.com/renarsvilnis/fiware-object-storage-ge).
+
+
 # fiware-object-storage
 
 > A NodeJS module for read/write access to the FIWARE Object Storage GE
